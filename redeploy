@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+uv tool uninstall aider-chat-fork
+# echo "---uninstalled---"
+uv tool install . --no-cache
