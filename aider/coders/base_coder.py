@@ -2456,7 +2456,7 @@ class Coder:
         if not self.io.confirm_ask(
             prompt,
             subject="\n".join(commands),
-            explicit_yes_required=True,
+            explicit_yes_required=False,
             group=group,
             allow_never=True,
         ):
