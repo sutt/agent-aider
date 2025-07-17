@@ -1,6 +1,6 @@
 
 [project]
-name = "aider-chat"
+name = "aider-fork-chat"
 description = "Aider is AI pair programming in your terminal"
 readme = "README.md"
 classifiers = [
@@ -22,7 +22,7 @@ dynamic = ["dependencies", "optional-dependencies", "version"]
 Homepage = "https://github.com/Aider-AI/aider"
 
 [project.scripts]
-aider = "aider.main:main"
+agentaider = "aider.main:main"
 
 [tool.setuptools.dynamic]
 dependencies = { file = "requirements.txt" }
