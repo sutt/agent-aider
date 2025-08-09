@@ -98,7 +98,7 @@ class Coder:
     num_malformed_responses = 0
     last_keyboard_interrupt = None
     num_reflections = 0
-    max_reflections = 3
+    max_reflections = 20
     edit_format = None
     yield_stream = False
     temperature = None
