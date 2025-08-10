@@ -10,7 +10,7 @@ Basically this allows aider to run fully agentically, like Claude Code in `--dan
 
 The primary use-case is using it with [Agro](https://github.com/sutt/agro), see case-studies like [this](https://github.com/sutt/agro/blob/master/docs/case-studies/aba-5.md#maider-as-wrapper-for-aider--aider-yolo) and [this](https://github.com/sutt/agro/blob/master/docs/case-studies/aba-vidstr-2.md#agentic-behavior).
 
----
+![demo](./demo-agent-1.gif)
 
 [Installing](#setup) this repo will install a python script `agentaider` with the exact capabilities as aider except for the behavior listed above.
 
